@@ -1,12 +1,18 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace CI_pltform.Entities.ViewModels
+namespace CI_platform.Entities.ViewModels
 {
-    internal class userLoginModel
+    public class userLoginModel
     {
+        [Required]
+        public string? Email { get; set; }
+
+        [Required]
+        public string? Password { get; set; }
     }
 }

@@ -1,17 +1,17 @@
 ﻿using System;
 using System.Collections.Generic;
-using CI_pltform.Entities.DataModels;
+using CI_platform.Entities.DataModels;
 using Microsoft.EntityFrameworkCore;
 
-namespace CI_pltform.Entities;
+namespace CI_platform.Entities;
 
-public partial class userDbContext : DbContext
+public partial class CIDbContext : DbContext
 {
-    public userDbContext()
+    public CIDbContext()
     {
     }
 
-    public userDbContext(DbContextOptions<userDbContext> options)
+    public CIDbContext(DbContextOptions<CIDbContext> options)
         : base(options)
     {
     }

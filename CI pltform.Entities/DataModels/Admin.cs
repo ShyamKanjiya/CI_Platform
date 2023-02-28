@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace CI_pltform.Entities.DataModels;
+namespace CI_platform.Entities.DataModels;
 
 public partial class Admin
 {
