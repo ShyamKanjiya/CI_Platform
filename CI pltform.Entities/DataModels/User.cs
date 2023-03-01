@@ -15,7 +15,7 @@ public partial class User
 
     public string Password { get; set; } = null!;
 
-    public int PhoneNumber { get; set; }
+    public int? PhoneNumber { get; set; }
 
     public string? Avatar { get; set; }
 
@@ -35,9 +35,9 @@ public partial class User
 
     public string? Title { get; set; }
 
-    public int Status { get; set; }
+    public int? Status { get; set; }
 
-    public byte[] CreatedAt { get; set; } = null!;
+    public byte[]? CreatedAt { get; set; }
 
     public DateTime? UpdatedAt { get; set; }
 
